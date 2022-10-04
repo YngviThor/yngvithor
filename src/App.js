@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import YngviPic from './IMG_4964.jpg';
 import './App.css';
 
