@@ -4,15 +4,36 @@ import './App.css';
 
 function App() {
   return (
+
+   <body>
     <div className="App">
+     
+     <div className="cvHeader">
+       <h1>Yngvi Thor Homepage</h1> <p></p>
+     
+       Programmer/Entrepreneur
+
+     </div>
+     
+     <div className="cvPic">
+ 
+       <img src={YngviPic} className="App-logo" alt="logo" />
+     </div>
+
+
+
       <header className="App-header">
-        <img src={YngviPic} className="App-logo" alt="logo" />
+        
         <p>
-          This is the homepage of Yngvi Thor
+          
         </p>
         
       </header>
     </div>
+    </body>
+
+
+
   );
 }
 

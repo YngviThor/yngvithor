@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.cvPic {
+  background-color: #282c34;
+  float: right;
+  padding: 10px;
+  
+}
+
+.cvHeader {
+  width: 60%;
+  float: left;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+  justify-content: center;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +29,12 @@
   .App-logo {
    /*  animation: App-logo-spin infinite 20s linear; */
   }
+}
+
+.App-body {
+
+  background-color: #282c34;
+
 }
 
 .App-header {
