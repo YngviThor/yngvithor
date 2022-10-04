@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
 
-   <body>
+   
     <div className="App">
      
      <div className="cvHeader">
@@ -30,7 +30,7 @@ function App() {
         
       </header>
     </div>
-    </body>
+   
 
 
 
