@@ -16,13 +16,12 @@ function App() {
     <div className="flex"> 
       <div className="Grid">
 
-        <div className="cvHeader grid-box ">
-          <h1 class="customfont">Yngvi Thor</h1> <p></p>
-          <h3>Programmer/Entrepreneur</h3>
-          <h5>Senior Full Stack Developer 29 years of experience</h5>
+      <div className="cvHeader grid-box ">
+          <h1 class="customfont">Yngvi Thor</h1> 
+          Programmer/Entrepreneur <br>
+          </br>
+          Senior Full Stack Developer 29 years of experience
         </div>
-
-     
 
         <div className="cvPic grid-box">
           <img src={YngviPic} className="App-logo" alt="logo" />
@@ -30,7 +29,6 @@ function App() {
 
         <div className="cvAppLinks grid-box ">
           <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" className="App-logo"  alt="logogithub"></img>
-         
           
         </div>
 
@@ -55,19 +53,15 @@ function App() {
         <header className="App-header">
 
           <p>
-
           </p>
 
         </header>
-
 
       </div>
       
       </div>
 
     </div>
-
-
 
 
   );
