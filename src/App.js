@@ -12,11 +12,12 @@ function App() {
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 </head>
 
-
+    
+    <div className="flex"> 
       <div className="Grid">
 
         <div className="cvHeader grid-box ">
-          <h1>Yngvi Thor Homepage</h1> <p></p>
+          <h1 class="customfont">Yngvi Thor Homepage</h1> <p></p>
           <h3>Programmer/Entrepreneur</h3>
           <h5>Senior Full Stack Developer 29 years of experience</h5>
         </div>
@@ -41,9 +42,7 @@ function App() {
           <p></p><b>Languages</b><p></p>
           English, Norwegian
 
-
         </div>
-
 
         <header className="App-header">
 
@@ -55,6 +54,9 @@ function App() {
 
 
       </div>
+      
+      </div>
+
     </div>
 
 
