@@ -29,7 +29,7 @@ function App() {
         </div>
 
         <div className="cvAppLinks grid-box ">
-          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" className="App-logo"></img>
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" className="App-logo"  alt="logogithub"></img>
          
           
         </div>
