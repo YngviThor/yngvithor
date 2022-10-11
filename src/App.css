@@ -11,7 +11,11 @@ padding-left: 5%;
 
 }
 
+.customfont {
 
+  font-size: 35px
+
+}
 
 .cvPic {
   display: flex;
@@ -21,20 +25,27 @@ padding-left: 5%;
   max-height: 365px;
   min-width: 330px;
   object-fit: contain;
+
+  grid-row: span 2 / auto;
 }
 
 .cvHeader {
-
-
   padding: 10px;
   color: white;
-
-  
   background-color: rgb(106, 143, 24);
-    
-
   max-height: 365px;
 }
+
+.cvAppLinks {
+  display: flex;
+  padding: 10px;
+  color: white;
+  background-color: rgb(103, 103, 103);
+  max-height: 140px;
+  justify-content: cover;
+
+}
+
 
 .App-logo {
 

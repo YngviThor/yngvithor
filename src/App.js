@@ -17,13 +17,21 @@ function App() {
       <div className="Grid">
 
         <div className="cvHeader grid-box ">
-          <h1 class="customfont">Yngvi Thor Homepage</h1> <p></p>
+          <h1 class="customfont">Yngvi Thor</h1> <p></p>
           <h3>Programmer/Entrepreneur</h3>
           <h5>Senior Full Stack Developer 29 years of experience</h5>
         </div>
 
+     
+
         <div className="cvPic grid-box">
           <img src={YngviPic} className="App-logo" alt="logo" />
+        </div>
+
+        <div className="cvAppLinks grid-box ">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" className="App-logo"></img>
+         
+          
         </div>
 
         <div className="Grid-col-span2 grid-box">
